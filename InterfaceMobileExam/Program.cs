@@ -6,6 +6,26 @@ using System.Threading.Tasks;
 
 namespace InterfaceMobileExam
 {
+    /*
+     * 
+     * Interface: To define a interface we have to use interface keyword
+     * Interface looks like a class but it has no implementation
+     * An Interface is a collection of abstract members.
+     * By Default interface members are public and abstract.
+     * syntax:
+     * interface <interface name>
+     * {
+     * abstract members
+     * }
+     * note:Interface name should start with I
+     * ex:Iemployee,Istudent
+     * Interface members we should implement with in derived class 
+     * without using override keyword
+     * Interface cannot contain static members.
+     * using Interface we can implement multiple inheritance
+     * We cannot create an object for Interfaace but we can create reference variable.
+     * for interfaces.
+     */
     interface Inokia1
     {
         void calling();
